@@ -1,0 +1,12 @@
+.griting-wraper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.gritin-title {
+  font-size: large;
+}
+.gritin-subtitle {
+  font-size: medium;
+}

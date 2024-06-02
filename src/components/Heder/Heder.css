@@ -1,0 +1,43 @@
+header {
+  height: 80px;
+  width: 100%;
+  background-color: rgb(153, 246, 72);
+  display: flex;
+}
+.cla1 {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: left;
+}
+.cla1 img {
+  height: 100%;
+  width: 100px;
+  margin-left: 15px;
+}
+.cla2 {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cla2 p {
+  margin-right: 12px;
+}
+.iconica {
+  margin-right: 5px;
+}
+.cla3 {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 7px;
+  padding-right: 10px;
+}
+button {
+  width: 120px;
+  height: 40px;
+}
