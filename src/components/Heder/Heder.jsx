@@ -6,6 +6,8 @@ import { FaFileWaveform } from "react-icons/fa6"
 import { FaServicestack } from "react-icons/fa"
 import { NavLink } from "react-router-dom"
 import img1 from "../Heder/Logo-removebg-preview.png"
+import { LiaHotelSolid } from "react-icons/lia"
+import teams from "../../common/teams.json"
 function Heder() {
   return (
     <>
@@ -19,30 +21,40 @@ function Heder() {
           </NavLink>
         </div>
         <div className="cla2">
-          <p>
-            <NavLink
-              to="/hotels"
-              className={({ isActive }) => (isActive ? "activeClass" : "class")}
-            >
-              Hotels
-            </NavLink>
-          </p>
-          <p>
-            <FaServicestack className="iconica" />
-            Services
-          </p>
-          <p>
+          <NavLink
+            to="/hotels"
+            className={({ isActive }) => (isActive ? "activeClass" : "class")}
+          >
+            <li>
+              <FaServicestack className="iconica" />
+              <p>Hotels</p>
+            </li>
+          </NavLink>
+          <NavLink
+            to="/teams"
+            className={({ isActive }) => (isActive ? "activeClass" : "class")}
+          >
+            <li>
+              <FaFileWaveform className="iconica" />
+              <p>Timovi</p>
+            </li>
+          </NavLink>
+          {/* <li>
             <FaFileWaveform className="iconica" />
-            Projects
-          </p>
-          <p>
+            <p>Projects</p>
+          </li> */}
+          <li>
             <MdSpeakerNotes className="iconica" />
-            About Us
-          </p>
-          <p>
+            <p>About Us</p>
+          </li>
+          <li className="stvarno">
             <FaPhone className="iconica" />
-            Contact Us
-          </p>
+            <p>Contact Us</p>
+          </li>
+          <li>
+            <FaSearch className="iconica" />
+            <p>Search</p>
+          </li>
         </div>
         <div className="cla3">
           <button>Log In</button>

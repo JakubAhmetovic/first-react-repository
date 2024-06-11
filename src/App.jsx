@@ -4,12 +4,16 @@ import viteLogo from "/vite.svg"
 import "./App.css"
 import Dodatak from "./components/Dodatak/Dodatak"
 import Dobrodoslica from "./components/Griting/Griting"
-import Hotel from "./components/Hotel_kartica/Hotel"
+import Hotel from "./components/Kartica/Hotel_kartica/Hotel"
 import hotels from "./common/hotel.json"
 import Heder from "./components/Heder/Heder"
 import Footer from "./components/Foter/Footer"
 import { Route, Routes } from "react-router-dom"
 import Hoteli from "./pages/Hotels/Hotels"
+import StartPage from "./components/StarPage/StartPage"
+import SpecificPage from "./pages/SpecificPage2/SpecificPage"
+import TeamKartica from "./components/Kartica/TeamKartica/TeamKartica"
+import Teams from "./pages/Teams/Teams"
 
 function App() {
   //   const [count, setCount] = useState(0)
@@ -24,12 +28,13 @@ function App() {
   //   }
   return (
     <>
-      <Heder></Heder>
+      <Heder />
       <div className="main2">
         <Routes>
-          <Route path="/" element={<p>Pocetna Stranica</p>} />
+          <Route path="/" element={<StartPage />} />
           <Route path="/hotels" element={<Hoteli />} />
-          <Route path="/hotels/:id" element={<p> Detalji o Hotelu</p>} />
+          <Route path="/hotels/:id" element={<SpecificPage />} />
+          <Route path="/teams" element={<Teams />} />
         </Routes>
       </div>
       {/* <div className="main">
@@ -43,7 +48,7 @@ function App() {
           ></Hotel>
         ))}
       </div> */}
-      <Footer></Footer>
+      <Footer />
     </>
   )
 }

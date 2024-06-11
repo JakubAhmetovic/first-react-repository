@@ -1,4 +1,4 @@
-import Hotel from "../../components/Hotel_kartica/Hotel"
+import Hotel from "../../components/Kartica/Hotel_kartica/Hotel"
 import hotels from "../../common/hotel.json"
 import "./Hotels.css"
 // import "./Hotel.css"
@@ -14,6 +14,7 @@ function Hoteli() {
             title={hotel.title}
             content={hotel.content}
             total={hotel.total}
+            onClick={() => (window.location.href = `/hotels/${hotel.id}`)}
           ></Hotel>
         ))}
       </div>

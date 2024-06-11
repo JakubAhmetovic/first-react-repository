@@ -47,8 +47,9 @@
 } */
 .main2 {
   width: 100%;
-  min-height: 57vh;
+  min-height: 540px;
 }
 body {
   padding: 0px;
+  margin: 0px;
 }

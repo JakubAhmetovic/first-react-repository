@@ -1,5 +1,13 @@
 footer {
   height: 100px;
   width: 100%;
-  background-color: aqua;
+  background-color: rgb(153, 246, 72);
+  padding-bottom: -1000px;
+  margin: 0px;
+}
+.fcla {
+  font-size: 40px;
+}
+.footer-text {
+  padding-top: 5px;
 }

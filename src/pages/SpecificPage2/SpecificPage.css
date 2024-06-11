@@ -1,0 +1,163 @@
+/* .main {
+  height: 550px;
+  width: 350px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px gray;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+img {
+  height: 200px;
+  width: 310px;
+  border-radius: 15px;
+  margin: 20px;
+}
+.m2 {
+  height: 55px;
+  margin-top: 5px;
+  color: black;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+.m2 * {
+  padding: 0px;
+  margin-top: 3px;
+  margin-bottom: 5px;
+  display: flex;
+}
+.m3 {
+  height: 250;
+  margin-top: 25px;
+  color: black;
+  padding-left: 20px;
+}
+.m3 * {
+  padding: 0px;
+  margin-top: 3px;
+  margin-bottom: 2px;
+  display: flex;
+}
+.paragraf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  height: 30px;
+  color: white;
+  background-color: rgb(36, 36, 117);
+  gap: 10px;
+  border-radius: 5px;
+  margin-top: 15px;
+  display: flex;
+}
+.para1 {
+  font-size: 22px;
+}*/
+.para2 {
+  background-color: rgb(30, 30, 30);
+  color: white;
+  font-size: 14px;
+  width: 80px;
+  height: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 355px;
+  left: 12px;
+} /*
+  .icon {
+    font-size: 25px;
+    margin-left: 5px;
+    margin-top: 8px;
+  } */
+.card {
+  background-color: rgb(231, 218, 218);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  max-width: 500px;
+  height: 380px;
+  transition: box-shadow 0.3s ease;
+  box-shadow: 6px 5px rgb(186, 176, 176);
+}
+
+.card-price {
+  background-color: rgb(15, 15, 105);
+  border-radius: 6px;
+  margin-top: 35px;
+  width: 100%;
+  height: 50px;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.icon {
+  font-size: 18px;
+  padding-left: 6px;
+  color: aliceblue;
+}
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-size: 1.4em;
+  margin-bottom: 8px;
+  margin-left: 5px;
+  display: flex;
+  color: black;
+}
+
+.card-content {
+  font-size: 1em;
+  color: #201f1f;
+  margin-left: 8px;
+  /* margin-top: 14px; */
+  display: flex;
+  gap: 5px;
+}
+
+.card-text {
+  font-size: 1em;
+  color: #201f1f;
+  display: flex;
+  margin-left: 7px;
+  /* margin-top: 14px; */
+}
+.card-total {
+  font-size: 1em;
+  color: #201f1f;
+  /* margin-top: 12px; */
+  display: flex;
+  flex-direction: row;
+  margin-left: 6px;
+}
+.card-price button {
+  background-color: rgb(15, 15, 105);
+  font-size: 16px;
+  width: 120px;
+  height: 30px;
+  font-size: 20px;
+}
+img {
+  width: 290px;
+  height: 150px;
+  border-radius: 5px;
+}
+.ikonica {
+  font-size: 30px;
+}
+.Special-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

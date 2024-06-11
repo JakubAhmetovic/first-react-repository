@@ -2,6 +2,7 @@ import "./Hotel.css"
 import { FaTag } from "react-icons/fa"
 import { IoMdInformationCircleOutline } from "react-icons/io"
 import { LiaHotelSolid } from "react-icons/lia"
+import SpecificPage from "../../../pages/SpecificPage2/SpecificPage"
 
 function Hotel(props) {
   return (
@@ -34,11 +35,10 @@ function Hotel(props) {
       <div className="card-content">{props?.content}</div>
       <div className="card-text">Per Night</div>
       <div className="card-total">Total ${props.total}</div>
-      <div className="card-price">
-        {/* <LiaHotelSolid className="icon" /> */}
-        <FaTag />
-        <p className="button-text">Show Hotel</p>
-      </div>
+      <button className="card-price" onClick={props.onClick}>
+        <SpecificPage /> <FaTag className="ikonica" />
+        Book Hotel
+      </button>
       <p className="para2">VIP Access</p>
     </div>
   )
